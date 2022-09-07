@@ -1,0 +1,24 @@
+// ---- nv style custom start
+.nv-container {
+  margin: 0 80px 0 140px;
+  max-width: 1000px;
+}
+.nv-text-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  max-width: 100%;
+  word-break: break-all;
+}
+.nv-break-word {
+  word-break: break-word;
+}
+.nv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// ---- nv style custom end
